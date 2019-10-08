@@ -19,7 +19,7 @@ How to run
 def request_encryption_key():
     encryption_key = int(input("Enter an integer for encryption: "))
     if encryption_key == 0:
-        print("Encryption key has to be greater than 1")
+        print("Encryption key cannot be 0!")
         request_encryption_key()
     return encryption_key
 
@@ -27,7 +27,7 @@ def request_encryption_key():
 def request_decryption_key():
     decryption_key = int(input("Enter an integer for decryption: "))
     if decryption_key == 0:
-        print("Encryption key has to be greater than 1")
+        print("Encryption key cannot be 0!")
         request_decryption_key()
     return decryption_key
 
