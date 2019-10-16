@@ -27,7 +27,7 @@
 from math import gcd
 
 
-p, q = 59, 53
+p, q = 101, 103
 
 
 def write_message():
